@@ -6,6 +6,8 @@ type Props = {
   title: string;
 };
 const bla = 'var';
+
+const marcia = 'teste';
 export default function Home({ title = 'Teste de Titulo Default' }: Props) {
   return (
     <div className={styles.container}>
